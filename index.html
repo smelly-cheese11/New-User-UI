@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Octagon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="menu">
+        <div class="menuToggle"><ion-icon name="play-circle-outline"></ion-icon></div>
+        <li style="--i:0;--clr:#ff2972">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+            <div class="menuToggle"></div>
+        <li style="--i:1;--clr:#fee800">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+            <div class="menuToggle"></div>
+        <li style="--i:2;--clr:#04fc43">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+            <div class="menuToggle"></div>
+        <li style="--i:3;--clr:#fe00f1">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+            <div class="menuToggle"></div>
+        <li style="--i:4;--clr:#00b0fe">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+            <div class="menuToggle"></div>
+        <li style="--i:5;--clr:#fea600">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+            <div class="menuToggle"></div>
+        <li style="--i:6;--clr:#a529ff">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+            <div class="menuToggle"></div>
+        <li style="--i:7;--clr:#01bdab">
+            <a href="https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI?si=706fcdda65d44e52"><ion-icon name="person-add-outline"></ion-icon></a>
+        </li>
+    </ul>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    let menuToggle = document.querySelector('.menuToggle');
+    let menu = document.querySelector('.menu');
+    menuToggle.onclick = function(){
+        menu.classList.toggle('active')
+    }
+</script>
+</body>
+</html>
